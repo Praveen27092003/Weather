@@ -1,3 +1,9 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 #city-input, #weather-output {
     max-width: 400px;
     margin: 0 auto;
@@ -6,4 +12,18 @@
 .banner {
     color: #FFD23F;
     font-family: sans-serif;
+}
+
+body{
+
+    background:linear-gradient(90deg, lightblue,rgb(165, 19, 19));
+    animation: bg 2s linear infinite;
+    
+}
+
+@keyframes bg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+    
 }
